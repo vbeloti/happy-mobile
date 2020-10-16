@@ -24,8 +24,8 @@ export default function OrphanageDetails() {
         <View style={styles.mapContainer}>
           <MapView
             initialRegion={{
-              latitude: -27.2092052,
-              longitude: -49.6401092,
+              latitude: -23.4971256,
+              longitude: -47.4693067,
               latitudeDelta: 0.008,
               longitudeDelta: 0.008,
             }}
@@ -38,8 +38,8 @@ export default function OrphanageDetails() {
             <Marker
               icon={mapMarkerImg}
               coordinate={{
-                latitude: -27.2092052,
-                longitude: -49.6401092
+                latitude: -23.4971256,
+                longitude: -47.4693067
               }}
             />
           </MapView>
